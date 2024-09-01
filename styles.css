@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+
+}
+
+ul {
+    list-style: none; /*desabilitar os marcadores*/
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    transition: 0.4s;
+    margin-right: 3.5rem;
+}
+
+a:hover{
+    color: #37a1f7; /*Quando o mouse passa por cima das opções de menu, ele muda de cor*/
+}
+
+/*Navbar*/
+#navbar{
+    padding: 1.5rem 2.5rem;
+    border-bottom: 2px solid #ddd; /*tamanho e cor da borda*/
+}
+
+#navbar-inner{ /*Configurações do menu*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav-links{
+    display: flex;
+    gap: 1rem; /*Afasta os elementos do menu*/  
+}
+
+h2{
+    margin-top: 4.5rem;
+    margin-bottom: 2.5rem;
+    color: #444;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+h3{
+    margin-top: 4rem;
+    text-align: center;
+    color: #444;
+}
+
+#contato form{ /*configurações do formulário de contato*/
+    text-align: center;
+    margin: 2rem;
+}
+
+#contato input{ /*configurações das caixas de texto*/
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #a5a2a2;
+}
+
+#contato textarea{ /*configurações da caixa de mensagem*/
+    margin: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #a5a2a2;
+    height: 6rem;
+   
+}
+
+#contato input[type="submit"]{ /*configurações do botão de enviar*/
+    cursor: pointer;
+    background-color: #37a1f7; 
+    color: #fff;
+    border: none;
+}
+
+#sobre_mim p{
+    margin: 1.5rem 2rem;
+    text-align: justify;
+}
+
+img{
+    display: block; /* Necessário para que margin: auto funcione */
+    margin: 2.5rem auto 0; /* Centraliza horizontalmente e define a margem superior */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 25rem;
+    width: 20rem;
+}
+
+#portfolio h4{  
+    margin: 5rem 20rem ;
+    text-align: justify;
+}
+
+#formacao_academica h2{
+    margin-bottom: 4.5rem;
+}
+
+#formacao_academica h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    
+}
+
+#formacao_academica p{
+    margin-bottom: 1.5rem;
+}
+
+
